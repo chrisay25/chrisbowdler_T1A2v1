@@ -1,0 +1,11 @@
+@import './default/colors';
+
+.header {
+    display: flex;
+    background-color: pink;
+}
+
+.store-link-container {
+    display: flex;
+    flex-direction: inline;
+}
