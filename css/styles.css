@@ -1,0 +1,42 @@
+/* This is my stlying*/
+
+body {
+    background-color: green;
+    margin: o;
+    flex: auto;
+    
+}
+
+header {
+    background-color: white;
+}
+
+.nav-items {
+    color: pink;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+}
+.social-media
+{
+    display: flex;
+    justify-content: inline;
+}
+
+.social-media img {
+    width: 75px;
+    height: 75px;
+    border-radius: 46%;
+   
+}
