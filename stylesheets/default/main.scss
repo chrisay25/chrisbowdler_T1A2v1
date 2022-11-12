@@ -1,11 +1,14 @@
 @import './default/colors';
+@import'./default/reset';
 
 .header {
     display: flex;
     background-color: pink;
+    max-width: 1050px;
+    justify-content: center;
 }
 
 .store-link-container {
     display: flex;
-    flex-direction: inline;
+    flex-direction: column;
 }
