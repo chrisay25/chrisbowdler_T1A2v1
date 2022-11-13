@@ -1,18 +1,18 @@
 /* This is my stlying*/
 
-body {
-    background-color: green;
-    margin: o;
-    flex: auto;
-    
-}
+/*Header styling*/
 
 header {
     background-color: white;
 }
-
+.Logo {
+    display: flex;
+    max-width: 1110px;
+    margin: auto;
+    justify-content: center;
+}
 .nav-items {
-    color: pink;
+    color: green;
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 15px;
@@ -21,22 +21,53 @@ header {
     justify-content: space-evenly;
 }
 
+
+/*body styling*/
+
+body {
+    background-color: white;
+    margin: o;
+    flex: auto;
+}
+.Palmtree 
+{
+    display: flex;
+    justify-content: center;
+}
+    
+
+/*Footer styling*/
+
 footer {
     padding-top: 10px;
     padding-bottom: 20px;
-    background-color: aquamarine;
+    background-color: yellow;
     display: flex;
     flex-direction: column;
 }
 .social-media
 {
     display: flex;
-    justify-content: inline;
+    justify-content: space-evenly;
 }
 
-.social-media img {
-    width: 75px;
-    height: 75px;
-    border-radius: 46%;
-   
-}
+.Facebook {
+    width: 30;
+    height: 30%;
+    display: flex;
+    justify-content: space-evenly
+   }
+
+.Twitter {
+    width: 30;
+    height: 30%;
+    display: flex;
+    justify-content: space-evenly
+   }
+
+   .Github {
+    width: 30;
+    height: 30%;
+    display: flex;
+    justify-content: space-evenly;
+   }
