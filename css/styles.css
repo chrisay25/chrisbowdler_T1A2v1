@@ -39,12 +39,14 @@ h1 {
     padding-left: 100px;
     padding-right: 100px;
     font-family: Arial, Helvetica, sans-serif;
+    color: #c23519;
 }
 h3 {
     padding-left: 100px;
     padding-right: 100px;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
+    color: #c23519;
    
 }
 h4 { 
@@ -52,6 +54,7 @@ h4 {
         padding-right: 100px;
         font-family: Arial, Helvetica, sans-serif;
         line-height: 1.5; 
+        color: #c23519;
 }
 
 p {
@@ -123,25 +126,35 @@ footer {
 
 
 .party img {
+    padding-left: 100px;
     width: 400px;
 
 }
 
 .chess img {
+    padding-left: 100px;
     width: 400px;
 
 }
 
 .anime img {
+    padding-left: 100px;
     width: 400px;
    
 }
 .cooking img {
+    padding-left: 100px;
     width: 400px;
 
 }
 .holiday img {
+    padding-left: 100px;
     width: 400px;
+}
+.Palmtree img {
+    padding-left: 100px;
+    width: 400px;
+    
 }
 
 /*Contact page*/
