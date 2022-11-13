@@ -3,29 +3,40 @@
 /*Header styling*/
 
 header {
-    background-color: white;
+    background-color: #3f454f;
 }
+
 .Logo {
-    display: flex;
-    max-width: 1110px;
-    margin: auto;
-    justify-content: center;
-}
-.nav-items {
-    color: green;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 15px;
-    width: 100%;
+    display: inline;
     display: flex;
     justify-content: space-evenly;
 }
 
+.nav-items {
+    display: inline;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+    padding-top: 15px;
+    background-color: #6D9886;
+   
+    
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 1.5rem;
+}
+
+.nav-items a:hover {
+    color: gold;
+}
 
 /*body styling*/
 
 body {
-    background-color: white;
+    background-color: #F2E7D5;
     margin: o;
     flex: auto;
 }
@@ -41,33 +52,75 @@ body {
 footer {
     padding-top: 10px;
     padding-bottom: 20px;
-    background-color: yellow;
+    background-color: #F7F7F7;
     display: flex;
     flex-direction: column;
 }
-.social-media
-{
+
+.Contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Contact-info {
+    margin: 4px;
+}
+
+.Socials {
+    display: inline;
     display: flex;
     justify-content: space-evenly;
 }
 
-.Facebook {
-    width: 30;
-    height: 30%;
-    display: flex;
-    justify-content: space-evenly
-   }
+/*Image sizes*/
 
-.Twitter {
-    width: 30;
-    height: 30%;
-    display: flex;
-    justify-content: space-evenly
-   }
-
-   .Github {
-    width: 30;
-    height: 30%;
+.blogcontainer a {
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 1.5rem;
+    display: inline;
     display: flex;
     justify-content: space-evenly;
-   }
+    
+}
+
+.blog-items a:hover {
+    color: gold;
+    display: inline;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.party img {
+    width: 400px;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+}
+
+.chess img {
+    width: 400px;
+    display: inline;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.anime img {
+    width: 400px;
+    display: inline;
+    display: flex;
+    justify-content: space-evenly;
+}
+.cooking img {
+    width: 400px;
+    display: inline;
+    display: flex;
+    justify-content: space-evenly;
+}
+.holiday img {
+    width: 400px;
+    display: inline;
+    display: flex;
+    justify-content: space-evenly;
+}
