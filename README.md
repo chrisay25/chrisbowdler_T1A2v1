@@ -1,16 +1,35 @@
 # Chris Bowdler Portfolio 
 
-This is my Portfolio Website!
+This is my Portfolio Website! https://6370af09524c8f1317e08511--capable-torrone-6ea4bb.netlify.app/
 
 ## Website 
 
-[Chris Bowdler Portfolio] This is my first website I am developing as a new student Web developer at Coder Academy!
+[Chris Bowdler Portfolio] This is my first website I am developing as a new student Web developer at Coder Academy! The purpose of this webstite is to showcase my begining skill 
+of how I create a website and to eventually look back in the future to see how far I have come in the coding world. The target audience of my website is future prospectable employers
+who will watch my coding skills grow from the point I am at now. In this portfolio, i used many different html and CSS styles to complete the website. My skills with SCSS was not strong enough at this point and I just could not get it right in the time frame the assignment was due so at the last minute I decided to just do away with SCSS for now and just use plain CSS.
 
 ## Installation
 
 ```
 git clone git@github.com:chrisay25/chrisbowdler_T1A2v1
 ```
+
+## Starting out.
+
+site map- 
+image.png it is also in my sitemap.JPG
+
+I started first by creating ,y index.html page and entering the skelton code. I then made the about me blog and contact pages along with the skelton code to set the base of my website
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Chris Bowdler Portfolio</title>
+
 ## Logo https://www.freelogodesign.org
 
 I have made my logo through free logo design through "https://www.freelogodesign.org"
@@ -51,3 +70,26 @@ https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cruise1st.co.uk%2Fblog%2Fc
 newyearsbog.jpg
 
 https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.goodhousekeeping.com%2Fholidays%2Fg30105731%2Fnew-years-eve-party-themes%2F&psig=AOvVaw1WsioMwHosMLElbJXDyE9p&ust=1668412503697000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCIDwoofXqvsCFQAAAAAdAAAAABAD
+
+## i then began to edit the pages
+
+I began first with text on my pages, then starting to mess with some colors to get the perfect base that I wanted. I had trouble along the way with pictures not doing what I wanted,
+then my github was playing up and I decided to start again on my windows desktop computer. I copied pages with the same base code, then edited them to suit the page that I was developing. I ftarted first with my social websites in the footer, this was the most simple part and later became a good helping hand with the header to get everything inline as I was having trouble with that on my pages.
+<div class="Socials">
+
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="../images/Facebook01.png" alt="Facebook">
+            </a>
+ 
+            <a href="https://www.github.com" target="_blank">
+                <img src="../images/twitter01.png" alt="Twitter">
+            </a>
+ 
+            <a href="https://www.github.com" target="_blank">
+                <img src="../images/github01.png" alt="Github">
+            </a>
+ 
+
+        </div>
+    
+    Once I started using this code the webste started falling into place, all I had to do was align this up and create my fake text to finish off the website.

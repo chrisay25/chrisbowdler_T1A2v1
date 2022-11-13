@@ -54,6 +54,12 @@ h4 {
         line-height: 1.5; 
 }
 
+p {
+    padding-left: 100px;
+        padding-right: 100px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.5; 
+}
 
 /*body styling*/
 
@@ -64,7 +70,9 @@ body {
 }
 .Palmtree 
 {
+    padding-right: 100px;
     display: flex;
+
     justify-content: center;
 }
     
